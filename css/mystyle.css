@@ -1,0 +1,86 @@
+body{
+	background-color: #93a4aa;
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+}
+.fotuela{
+	height: 100vh;
+	position: relative;
+	top:0;
+	width: 100%;
+	background-color: purple;
+	color: white;
+	/*background-image:url("");*/
+}
+.presenta{
+
+}
+.presenta h1{
+	font-size: 2.5em;
+	margin-top: 3em;
+	text-align: center;
+}
+/*.hireme{
+
+}*/
+.centra{
+	margin: 0 auto;
+	text-align: center;
+}
+.low{
+	margin-top: 7em;
+}
+.hireme{
+	background-color: #4CAF50;
+	border: 2px solid rgb(254, 215, 102);
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: transparent;
+}
+.hireme:hover {
+    background-color: rgb(254, 215, 102);
+    color: black;
+    padding: 14px 48px;
+}
+.exper{
+	height: auto;
+	width: 100%;
+	color: #93a4aa;
+	background-color: #fff;
+}
+.work{
+	height: auto;
+	width: 100%;
+	color: #93a4aa;
+	background-color: #eee;
+}
+.contact{
+	height: auto;
+	width: 100%;
+	background-color:#FED766;
+}
+.personal{
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+}
+.foot{
+	height: auto;
+	padding: 5%;
+	background-color:#252a30;
+}
+
