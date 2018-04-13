@@ -32,6 +32,13 @@ a{
 .low{
 	margin-top: 7em;
 }
+div + .centra a{
+	font-size: 0.8em;
+	color:rgba(255,255,255,0.7);
+}
+div + .centra a:hover{
+	color:rgba(255,255,255,0.9);
+}
 .hireme{
 	background-color: #4CAF50;
 	border: 2px solid rgb(254, 215, 102);
