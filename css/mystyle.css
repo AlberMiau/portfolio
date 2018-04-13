@@ -1,6 +1,7 @@
 body{
 	background-color: #93a4aa;
 	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
 }
 a{
 	text-decoration: none;
@@ -10,10 +11,13 @@ h1{
 	color:#111;
 	padding-top: 1.3em;
 	font-size: 2em;
-	font-weight: 555;
+	font-weight: 600;
+}
+p{
+	font-size: 0.8em;
 }
 .fotuela{
-	height: 100vh;
+	height: auto;
 	position: relative;
 	top:0;
 	width: 100%;
@@ -33,6 +37,9 @@ h1{
 .presenta h1{
 	font-size: 2.5em;
 	margin-top: 3em;
+	padding-top: 0em;
+	font-weight: 600;
+	color: white;
 	text-align: center;
 }
 .centra{
@@ -40,7 +47,16 @@ h1{
 	text-align: center;
 }
 .low{
-	margin-top: 2.3em;
+	margin-top: 4.5em;
+}
+.low2{
+	padding-bottom: 2em;
+}
+.marb{
+	margin-bottom: 10%;
+}
+.padalt{
+	padding-top: 1.5em;
 }
 div + .centra a{
 	font-size: 0.8em;
@@ -49,30 +65,7 @@ div + .centra a{
 div + .centra a:hover{
 	color:rgba(255,255,255,0.9);
 }
-.hireme{
-	background-color: #4CAF50;
-	border: 2px solid rgb(254, 215, 102);
-    color: white;
-    padding: 14px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.8em;
-    margin: 4px 2px auto;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-color: transparent;
-}
-.hireme:hover {
-    background-color: rgb(254, 215, 102);
-    color: black;
-    padding: 14px 48px;
-}
+
 .exper{
 	height: auto;
 	width: 100%;
@@ -93,7 +86,7 @@ h3{
 	color:#111;
 	padding-top: 0.3em;
 	font-size: 2em;
-	font-weight: 555;
+	font-weight: 700;
 }
 .one-third p{
 	font-size: 0.75em;
@@ -104,19 +97,33 @@ h3{
 	color: rgb(254, 215, 102);
 	font-size: 2.7em;
 }
-.icono h1{
-	padding-top: 0;
-}
 .work{
 	height: auto;
 	width: 100%;
 	color: #93a4aa;
 	background-color: #eee;
 }
-.contact{
+.work img{
+	width: 98%;
+	border-radius: 5%;
+}
+
+.quotes{
+	font-size: 0.9em;
+	color: #252a30;
+	margin: 0 20% 10% 20%;
+	margin-bottom: 0.5em;;
+}
+#contact{
 	height: auto;
 	width: 100%;
 	background-color:#FED766;
+}
+#contact h1{
+	padding-top: 3.5em;
+}
+.contap{
+	margin: 0 20% 10% 20%;
 }
 .personal{
 	height: auto;
@@ -129,3 +136,82 @@ h3{
 	background-color:#252a30;
 }
 
+
+.boton1{
+	background-color: #4CAF50;
+	border: 2px solid rgb(254, 215, 102);
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 4px 2px auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: transparent;
+    font-weight: 700;
+}
+.boton1:hover {
+    background-color: rgb(254, 215, 102);
+    color: black;
+    padding: 14px 48px;
+}
+.boton2{
+	background-color: #4CAF50;
+	border: 2px solid rgb(254, 215, 102);
+    color: #252a30;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6em;
+    margin: 4px 2px auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: transparent;
+    font-weight: 900;
+}
+.boton2:hover {
+    background-color: #252a30;
+    color:rgb(254, 215, 102);
+    padding: 10px 48px;
+    border: 2px solid #252a30;
+}
+.boton3{
+	background-color: #4CAF50;
+	border: 2px solid #252a30;
+	font-weight: 900;
+    color: #252a30;
+    padding: 16px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6em;
+    margin: 4px 2px auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: transparent;
+    margin-bottom: 6em;
+}
+.boton3:hover {
+    background-color: #252a30;
+    color:rgb(254, 215, 102);
+    padding: 16px 54px;
+    border: 2px solid #252a30;
+}
