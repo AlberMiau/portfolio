@@ -5,6 +5,13 @@ body{
 a{
 	text-decoration: none;
 }
+h1{
+	text-align: center;
+	color:#111;
+	padding-top: 1.3em;
+	font-size: 2em;
+	font-weight: 555;
+}
 .fotuela{
 	height: 100vh;
 	position: relative;
@@ -12,8 +19,14 @@ a{
 	width: 100%;
 	background-color: purple;
 	color: white;
+	box-sizing: border-box;
 	/*background-image:url("");*/
 }
+/*.logo{
+	margin: 0 auto;
+	text-align: center;
+}*/
+
 .presenta{
 
 }
@@ -22,15 +35,12 @@ a{
 	margin-top: 3em;
 	text-align: center;
 }
-/*.hireme{
-
-}*/
 .centra{
 	margin: 0 auto;
 	text-align: center;
 }
 .low{
-	margin-top: 7em;
+	margin-top: 2.3em;
 }
 div + .centra a{
 	font-size: 0.8em;
@@ -68,6 +78,34 @@ div + .centra a:hover{
 	width: 100%;
 	color: #93a4aa;
 	background-color: #fff;
+	box-sizing: border-box;
+}
+h4{
+	margin-bottom: 2em;
+	font-size: 1.1em;
+	color:#111;
+	letter-spacing: 0.2em;
+	font-weight: 100;
+	padding-bottom: 3.3em;
+}
+h3{
+	text-align: center;
+	color:#111;
+	padding-top: 0.3em;
+	font-size: 2em;
+	font-weight: 555;
+}
+.one-third p{
+	font-size: 0.75em;
+	padding-bottom: 6.5em;
+}
+
+.icono{
+	color: rgb(254, 215, 102);
+	font-size: 2.7em;
+}
+.icono h1{
+	padding-top: 0;
 }
 .work{
 	height: auto;
