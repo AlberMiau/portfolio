@@ -21,16 +21,26 @@ p{
 	position: relative;
 	top:0;
 	width: 100%;
-	background-color: purple;
+	background: linear-gradient(to bottom right, rgb(254, 215, 102), purple);
 	color: white;
 	box-sizing: border-box;
 	/*background-image:url("");*/
 }
+.logo:hover{
+	color: black;
+	/*box-shadow: 10px 10px 5px grey;*/
+	text-shadow: 10px 10px 5px grey;
+	-webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+}
 .logo{
+	text-shadow: 10px 10px 5px grey;
 	color: white;
 	margin-top: 3%;
 	font-size: 13rem;
 }
+
 .logo2{
 	color: white;
 	font-size: 1.5em;
@@ -163,6 +173,7 @@ h3{
     margin: 4px 2px auto;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    transition-timing-function: ease-out;
     cursor: pointer;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -188,6 +199,7 @@ h3{
     margin: 4px 2px auto;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    transition-timing-function: ease-out;
     cursor: pointer;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -215,6 +227,7 @@ h3{
     margin: 4px 2px auto;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    transition-timing-function: ease-out;
     cursor: pointer;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
