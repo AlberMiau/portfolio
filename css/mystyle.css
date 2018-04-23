@@ -27,18 +27,16 @@ p{
 	/*background-image:url("");*/
 }
 .logo:hover{
-	color: black;
-	/*box-shadow: 10px 10px 5px grey;*/
-	text-shadow: 10px 10px 5px grey;
-	-webkit-transition-duration: 0.7s; /* Safari */
-    transition-duration: 0.7s;
-    transition-timing-function: ease-out;
+	color: black;	
 }
 .logo{
 	text-shadow: 10px 10px 5px grey;
 	color: white;
 	margin-top: 3%;
 	font-size: 13rem;
+	-webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .logo2{
@@ -145,6 +143,12 @@ h3{
 	height: auto;
 	width: 100%;
 	background-color: #fff;
+}
+.fotopersonal{
+	width: 50%;
+	box-sizing: border-box;
+	background-size: cover;
+	border-radius: 10%;
 }
 .foot{
 	height: auto;
