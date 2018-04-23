@@ -47,7 +47,7 @@ p{
 	text-align: center;
 }
 .low{
-	margin-top: 4.5em;
+	margin-top: 8.75em;
 }
 .low2{
 	padding-bottom: 2em;
@@ -66,7 +66,7 @@ div + .centra a:hover{
 	color:rgba(255,255,255,0.9);
 }
 
-.exper{
+#exper{
 	height: auto;
 	width: 100%;
 	color: #93a4aa;
