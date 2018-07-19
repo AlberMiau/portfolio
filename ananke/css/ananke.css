@@ -109,10 +109,12 @@ h3{
 .fotito{
 	padding: 3%;
 	width: 90%;
+	margin: 0 auto;
+	transition: .33s ease-in-out;
+	border-radius: 60px;
 }
 .fotito:hover{
 	width: 92%;
-	transition: .33s ease-in-out;
 }
 
 .textito{

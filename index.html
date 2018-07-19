@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 
   <!-- Basic Page Needs
@@ -17,6 +17,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <script src="js/smoothscroll.js"></script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,31 +35,31 @@
   <div>
     
     <!-- Presentacion__________________________________ -->
-    <div class="fotuela">
+    <header class="fotuela">
       <div class="centra">
         <a href="#"><i class="fab fa-gitlab logo"></i></a>
       </div>
       <div class="container presenta">
         <h1>Hi, I'm Alberto. I'm studing web design.<br>It's really fun!!</h1>
         <div class="centra">
-          <a class="boton1" href="#contact">Yes! I'm available =] Hire Me!</a>
+          <button class="boton1 js-scroll-to-bottom">Yes! I'm available =] Hire Me!</button>
         </div>
         <div class="centra low low2">
-          <a href="#exper">
+          <a href="" class="js-scroll-into-exp">
             Learn more about what I do!<br>
             <i class="far fa-arrow-alt-circle-down"></i>
           </a>
         </div>
       </div>
-    </div>
-
+    </header>
+  
     <!-- Mi experiencia________________________________ -->
-    <div id="exper">
-      <div class="container">
+    <div id="exper" >
+      <div class="container exp">
       <div class="centra">
         <h1>Mi Experiencia</h1>
         <h4>Tengo experiencia en todas las fases</h4>
-        <div class="row">
+        <div class="row low2">
           <div class="one-third column">
             <i class="fas fa-hourglass-start icono"></i>
             <h3>Strategy</h3>
@@ -80,7 +81,7 @@
     </div>
 
     <!-- Mi Trabajo____________________________________ -->
-    <div class="work low2">
+    <div class="work">
       <div class="container">
         <div>
           <h1>My work</h1>
@@ -142,32 +143,32 @@
     <div class="personal">
       <div class="container">
         <h1>Personal Projects</h1>
-        <p>When I'm not freelancing, I'm working on digital products. Like:</p>
+        <p>When I'm not freelancing, I'm working on digital products.</p>
         <div class="row">
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/uno.jpg');"></div>
+            <div class="fotopersonal" style='background-image: url("img/iceland01.jpg");'></div>
             <p>YL Builders helps independent distributors of Young Living essential oils grow their business through automated class promotion and prospect follow-up management.</p>
           </div>
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/dos.jpg');"></div>
+            <div class="fotopersonal" style="background-image: url('img/mountain02.jpg');"></div>
             <p>Basin is a form endpoint and submission management app. I designed and built the front-end, and Anthony Penner built the backend. It went live in June 2017.</p>
           </div>
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/tres.jpg');"></div>
+            <div class="fotopersonal" style="background-image: url('img/hills03.jpg');"></div>
             <p>Houston helps startups grow, engage, and learn from their early adopters so they can launch winning products. I acquired it in June of 2017 and am working on some new features.</p>
           </div>
         </div>
         <div class="row">
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/cuatro.jpg');"></div>
+            <div class="fotopersonal" style="background-image: url('img/yosemite04.jpg');"></div>
             <p>Designlab is an online education platform that features project-based learning and 1-on-1 mentorship from industry experts. I mentor students in their UX Academy program.</p>
           </div>
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/cinco.jpg');"></div>
+            <div class="fotopersonal" style="background-image: url('img/sky05.jpg');"></div>
             <p>Dovetail is a free, open source member management app for coworking spaces I built with Vince Hodges. Over 2,800 coworking spaces worldwide have created accounts.</p>
           </div>
           <div class="one-third column">
-            <div class="fotopersonal" style="background-image: url('img/seis.jpg');"></div>
+            <div class="fotopersonal" style="background-image: url('img/panorama06.jpg');"></div>
             <p>UserForge is a simple web app that helps people quickly create, share and iterate user personas for design projects. Alvin Engler and I designed and built it in our spare time.</p>
           </div>
         </div>
@@ -176,14 +177,15 @@
     </div>
 
     <!-- Contacto______________________________________ -->
+
     <div id="contact">
       <div class="container centra">
         <h1>Want to work together?</h1>
         <p class="contap">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
-        <a class="boton3" href="#">GET STARTED</a>
+        <button class="boton3 js-scroll-to-top">GET STARTED</button>
       </div>
     </div>
-<span></span>
+
     <!-- Footer_______________________________________ -->
     <footer class="foot">
       <div class="container">
@@ -191,7 +193,30 @@
         <p>Handmade by Alberto &copy; 2018.</p>
       </div>
     </footer>
-
+  
   </div>
+<script>
+  // add event listener on load
+    window.addEventListener('load', function() {
+
+      // scroll to bottom
+      document.querySelector('.js-scroll-to-bottom').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: document.body.clientHeight - window.innerHeight, left: 0, behavior: 'smooth' });
+      });
+      // scroll to top
+      document.querySelector('.js-scroll-to-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        //window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+        document.querySelector('header').scrollIntoView({ behavior: 'smooth' });
+      });
+      // scroll into view experienceee
+      document.querySelector('.js-scroll-into-exp').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('.exp').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+</script>
 </body>
+
 </html>
